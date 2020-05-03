@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: rgb(0, 0, 0);
+  color: rgb(250, 240, 230);
+}
+
+#main {
+
+}
+#title {
+
+}
+#img-div {
+
+}
+#image {
+  max-width: 50%;
+  height: auto;
+}
+#img-caption {
+
+}
+#tribute-info {
+
+}
