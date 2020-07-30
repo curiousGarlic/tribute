@@ -1,9 +1,13 @@
 * {
   box-sizing: border-box;
 }
-body {
-  background: rgb(0, 0, 0);
-  color: rgb(250, 240, 230);
+
+header, main, footer {
+  background: rgb(250, 245, 240);
+  /* color: rgb(250, 240, 230); */
+}
+
+p {
 }
 
 #main {
@@ -12,12 +16,13 @@ body {
 #title {
 
 }
-#img-div {
+#gallery {
 
 }
 #image {
   max-width: 50%;
   height: auto;
+  border-radius: 10px;
 }
 #img-caption {
 
