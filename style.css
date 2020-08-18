@@ -7,26 +7,127 @@ header, main, footer {
   /* color: rgb(250, 240, 230); */
 }
 
-p {
+body{
+  /* font-family: "Didot", Arial, sans-serif; */
+  /* background-color: #F5F5F5; */
+  color:#1F2833;
+  font-size: 18px;
 }
 
-#main {
-
+#main{
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee; 
 }
-#title {
 
+#title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  color:#275953;
 }
-#gallery {
 
+#p-title{
+  margin-top: -20px;
+  text-align: center;
+  font-style: italic;
 }
-#image {
-  max-width: 50%;
-  height: auto;
+
+#image{
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
   border-radius: 10px;
 }
-#img-caption {
 
+#img-div{
+  background-color:#eee;
+  margin: 0;
+  padding: 10px;
+  border-radius:10px;
 }
-#tribute-info {
 
+#img-caption{
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
 }
+
+h2{
+  margin-top: -15px;
+  text-align: center;
+  color:#275953;
+}
+
+#autobio{
+  text-align: left;
+  text-decoration: underline; 
+  margin-top: 10px;
+}
+
+ul{
+  font-size: 14px;
+}
+
+#life-info {
+  max-width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+#life-maya {
+  line-height: 1.7em;
+  text-align: justify;
+  padding: 20px;
+}
+
+#life-imgs{
+  padding: 20px;
+}
+
+.img-books{
+  max-width: 100%;
+  border-radius: 20px;
+  border: 2px solid #275953;
+  margin: 20px 0;
+}
+
+.img-caption{
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+}
+
+#tribute-info{
+  text-align: center;       
+  font-size: 14px; 
+}
+
+footer {
+  text-align: center;       
+}
+
+a{
+  text-decoration: underline;
+  color:#003E9C;  
+  text-align: center;
+}
+
+a:hover{
+  color:#732828;
+}
+@media (max-width: 320px) {
+  #life-info {
+    width: 100%;
+  }
+}  
+
+@media  (max-width: 850px) {
+  #life-info{
+    grid-template-columns: 2fr;  
+    width: 100%;
+  }
+}  
