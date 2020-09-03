@@ -10,8 +10,8 @@ header, main, footer {
 body{
   /* font-family: "Didot", Arial, sans-serif; */
   /* background-color: #F5F5F5; */
-  color:#1F2833;
-  font-size: 18px;
+  color:rgb(31, 41, 51);
+  /* font-size: 20px; */
 }
 
 #main{
