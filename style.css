@@ -57,15 +57,10 @@ body{
   font-style: italic;
 }
 
-h2{
-  /* margin-top: -15px; */
-  color:#275953;
-}
-
-
 #autobio{
-  text-decoration: underline; 
+  color:#275953;
   margin-top: 10px;
+  padding: 1rem;
 }
 
 ul{
