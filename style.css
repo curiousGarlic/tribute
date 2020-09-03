@@ -103,11 +103,11 @@ ul{
   /* font-size: 14px; */
   font-style: italic;
   text-align: center;
+  font-size: 0.8rm; 
   /* background-color: antiquewhite; */
 }
 
 #quote{
-  font-size: 0.8rm; 
   margin: 20px auto;
   padding: 1rem;
 }
