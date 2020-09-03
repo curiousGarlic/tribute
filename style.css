@@ -1,133 +1,133 @@
 * {
   box-sizing: border-box;
+  margin: 0 auto;
 }
 
 header, main, footer {
-  background: rgb(250, 245, 240);
-  /* color: rgb(250, 240, 230); */
+  /* background: rgb(250, 230, 240); */
+  margin: 1rem 0;
 }
 
 body{
-  /* font-family: "Didot", Arial, sans-serif; */
   /* background-color: #F5F5F5; */
   color:rgb(31, 41, 51);
-  /* font-size: 20px; */
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
 }
 
 #main{
-  padding: 15px;
-  border-radius: 5px;
-  background: #eee; 
+  /* border-radius: 5px; */
+  /* background: #eee;  */
 }
 
 #title{
-  text-align: center;
   font-weight: bold;
-  font-size: 50px;
+  /* font-size: 5rem; */
   color:#275953;
+  padding: 2rem;
 }
 
 #p-title{
-  margin-top: -20px;
-  text-align: center;
+  /* margin-top: -20px; */
   font-style: italic;
-}
-
-#image{
-  max-width: 100%;
-  display: block;
-  margin: 0 auto;
-  border-radius: 10px;
 }
 
 #img-div{
-  background-color:#eee;
-  margin: 0;
-  padding: 10px;
-  border-radius:10px;
+  /* background-color:rgb(255, 214, 214); */
+  /* margin: auto 0;
+  padding: 0px; */
+  /* border-radius: 10px; */
+  border-radius: 20px;
+  max-width: 90%;
+  /* overflow: hidden; */
+  /* margin: 0 auto; */
+}
+
+#image{
+  border-radius: 30px;
+  display: block;
+  max-width: 100%;
+  /* margin: 0 auto; */
+  /* padding: 20px 0; */
 }
 
 #img-caption{
-  font-size: 14px;
+  /* font-size: 14px; */
   font-style: italic;
-  text-align: center;
 }
 
 h2{
-  margin-top: -15px;
-  text-align: center;
+  /* margin-top: -15px; */
   color:#275953;
 }
 
 
 #autobio{
-  text-align: left;
   text-decoration: underline; 
   margin-top: 10px;
 }
 
 ul{
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 
-#life-info {
-  max-width: 1000px;
+#tribute-info {
   height: auto;
-  margin: 0 auto;
   display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-}
-
-#life-maya {
-  line-height: 1.7em;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  /* grid-template-columns: 1fr 1fr; */
+  max-width: 1000px;
+  margin: 0 auto;
   text-align: justify;
-  padding: 20px;
 }
 
-#life-imgs{
-  padding: 20px;
+.container{
+  background: 
+  linear-gradient(217deg, rgba(255,0,0,.1), rgba(255,0,0,0) 70.71%),
+  linear-gradient(127deg, rgba(0,255,0,.1), rgba(0,255,0,0) 70.71%),
+  linear-gradient(336deg, rgba(0,0,255,.1), rgba(0,0,255,0) 70.71%);  /* border: 2px solid #275953; */
+  border-radius: 20px;
+  max-width: 600px;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
-.img-books{
+.container > p{
+  padding: 20px;
+}
+.tribute-img{
   max-width: 100%;
   border-radius: 20px;
-  border: 2px solid #275953;
-  margin: 20px 0;
 }
 
 .img-caption{
-  font-size: 14px;
+  /* font-size: 14px; */
   font-style: italic;
   text-align: center;
+  /* background-color: antiquewhite; */
 }
 
-#tribute-info{
-  text-align: center;       
-  font-size: 14px; 
+#quote{
+  /* font-size: 14px;  */
 }
 
-footer {
-  text-align: center;       
-}
 
 a{
   text-decoration: underline;
   color:#003E9C;  
-  text-align: center;
 }
-
 a:hover{
   color:#732828;
 }
 @media (max-width: 320px) {
-  #life-info {
+  #tribute-info {
     width: 100%;
   }
 }  
-
 @media  (max-width: 850px) {
-  #life-info{
+  #tribute-info{
     grid-template-columns: 2fr;  
     width: 100%;
   }
