@@ -26,6 +26,7 @@ body{
   /* font-size: 5rem; */
   color:#275953;
   padding: 2rem;
+  line-height: 3rem;
 }
 
 #p-title{
@@ -35,8 +36,8 @@ body{
 
 #img-div{
   /* background-color:rgb(255, 214, 214); */
-  /* margin: auto 0;
-  padding: 0px; */
+  margin: 0 auto;
+  /* padding: 0px; */
   /* border-radius: 10px; */
   border-radius: 20px;
   max-width: 90%;
@@ -45,10 +46,10 @@ body{
 }
 
 #image{
-  border-radius: 30px;
+  border-radius: 20px;
   display: block;
   max-width: 100%;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   /* padding: 20px 0; */
 }
 
@@ -84,7 +85,7 @@ ul{
   linear-gradient(127deg, rgba(0,255,0,.1), rgba(0,255,0,0) 70.71%),
   linear-gradient(336deg, rgba(0,0,255,.1), rgba(0,0,255,0) 70.71%);  /* border: 2px solid #275953; */
   border-radius: 20px;
-  max-width: 600px;
+  max-width: 700px;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -95,6 +96,7 @@ ul{
 .tribute-img{
   max-width: 100%;
   border-radius: 20px;
+  margin: 0 auto;
 }
 
 .img-caption{
@@ -105,7 +107,9 @@ ul{
 }
 
 #quote{
-  /* font-size: 14px;  */
+  font-size: 0.8rm; 
+  margin: 20px auto;
+  padding: 1rem;
 }
 
 
