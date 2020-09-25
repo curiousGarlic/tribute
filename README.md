@@ -1,3 +1,4 @@
-# Responsive Web Design - a Tribute Page
+# Tribute Page
 
-- HTML CSS
+- Responsive Web Design
+    - HTML CSS
